@@ -1,0 +1,13 @@
+﻿C# in Depth, 2nd Edition - Jon Skeet
+Sources for converting into .mobi format
+
+Features:
+- cover
+- table of content (test)
+- figures, tables (test)
+
+How to build:
+1. Get KindleGen.exe
+2. Run in command prompt
+"KindleGen.exe" "CSharp_in_Depth.opf" -o2
+o2 - compress flag (o0 - low, o2 - high)

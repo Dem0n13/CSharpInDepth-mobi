@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:title>C# in Depth, 2nd Edition</dc:title>
+        <dc:creator opf:file-as="Skeet, Jon" opf:role="aut">Jon Skeet</dc:creator>
+        <dc:language>en</dc:language>
+    </metadata>
+	<manifest>
+		<item href="CSharp_in_Depth.html" id="html" media-type="application/xhtml+xml"/>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="html"/>
+	</spine>
+    <guide>
+        <reference type="cover" href="images/1.png" title="Cover"/>
+		<reference type="toc" href="CSharp_in_Depth.html#bookmark0" title="Table of Contents"/>
+    </guide>
+</package>
